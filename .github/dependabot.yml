@@ -1,0 +1,11 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 3
+updates: ('git pull')
+  - package-ecosystem: "echo "# Hello-World" >> README.md" # See documentation for possible values
+    directory: "/data/data/com.termux/files/home/Draken75/Hello-My-Fri" # Location of package manifests
+    schedule:
+      interval: "weekly"
